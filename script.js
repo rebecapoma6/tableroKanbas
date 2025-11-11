@@ -48,7 +48,7 @@ function anadirTarjeta(container) {
         const txtTarjtaNva = parrafoElement.textContent.trim();
         if(txtTarjtaNva === ''){alert('La tarjeta NO puede estar vacía.');return}
         articleElemente.classList.remove('tarjetaDEdicion');
-        //parrafoElement.removeAttribute('contenteditable'); comente esto porq hacia que las tarejtas nuevas no sean editables
+        parrafoElement.removeAttribute('contenteditable'); /*comente esto porq hacia que las tarejtas nuevas no sean editables*/
         divBotones.remove();
 
 
