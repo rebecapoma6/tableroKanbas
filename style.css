@@ -101,7 +101,7 @@ h2 {
 
 .delete-btn:hover,
 .btn-cancel:hover {
-    background-color: #ffe6e6;
+    background-color: var(--color-bg);
     transform: scale(1.1);
     border-radius: 5px;
 }
